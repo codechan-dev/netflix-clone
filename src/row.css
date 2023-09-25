@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+body{
+    background-color: black;
+    color:white
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.row{
+
+    display: flex;
+    padding: 20px;
+    overflow: auto;
+    /* background-color: bisque; */
+    white-space: nowrap;
+    transition: transform 850ms;
+    overflow-y: hidden;
+    position: relative;
+}
+
+div h3{
+    color: rgb(255, 0, 0);
+    left: 25px;
+    /* padding-bottom:2rem ; */
+    position: absolute;
+    
+   
+}
+
+.row::-webkit-scrollbar{
+   height: 0.5px;
+    
+}
+.row img{
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    
+
+}
+.row :hover{
+    transform: scale(1.5);
+    background-color: #777;
+}

@@ -1,0 +1,51 @@
+.title{
+    color:red;
+    text-align: left;
+    font-weight: 800;
+}
+
+.container{
+    
+    justify-content: left;
+    align-items: flex-start;
+
+
+}
+.banner_button{
+    text-align: left;
+    padding: 8px;
+}
+.banner_button button{
+    padding: 7px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+  color: #ffffff;
+  background-color: rgb(236, 9, 9);
+}
+.description{
+    text-align: left;
+    width: 630px;
+}
+
+.banner{
+
+height: 91vh;
+
+background-repeat: no-repeat; 
+background-size: auto auto;
+background-position: center center;
+width: 100%;
+object-fit: fill;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; 
+
+
+}
+.container{
+    margin-left: 30px ;
+    padding-top: 250px;
+    height: 190px;
+}
